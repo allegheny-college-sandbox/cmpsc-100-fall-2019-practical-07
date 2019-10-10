@@ -1,6 +1,6 @@
 # CMPSC 100-03 Practical Session 7
 
-This practical will deepen your code reading skills by asking you to read and implement two `classes` managing a bank account `object` and a bill `object`.
+This practical will deepen your code reading and implementation skills by creating fractions and performing operations with them as `objects` with properties specific to given `instances`.
 
 * Assigned: Friday, 11 October 2019
 * Due: Wednesday, 16 October

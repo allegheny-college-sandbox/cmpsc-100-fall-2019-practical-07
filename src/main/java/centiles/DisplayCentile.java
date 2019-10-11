@@ -19,8 +19,8 @@ public class DisplayCentile {
     System.out.print("Enter points possible: ");
     int possible = input.nextInt();
     Fraction score = new Fraction(earned, possible);
-    Fraction newScore = score.translate();
+    Fraction centile = score.centile();
     System.out.println("Score " + score.toString() + " = "
-                       + newScore.toString() + " (" + newScore.fmtPercent() + ")");
+                       + centile.toString() + " (" + centile.fmtPercent() + ")");
   }
 }

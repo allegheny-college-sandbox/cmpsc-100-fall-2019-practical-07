@@ -42,5 +42,4 @@ script:
   - gradle clean
   - gradle check
   - gradle build
-  - gradle -q --console plain run
   - gradle grade -x build

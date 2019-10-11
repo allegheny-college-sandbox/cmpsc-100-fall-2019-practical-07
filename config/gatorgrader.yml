@@ -5,7 +5,7 @@ indent: 4
 ---
 src/main:
     java:
-        centile/DisplayCentile.java:
+        centiles/DisplayCentile.java:
             ConfirmFileExists
             MatchFileRegex --regex "Fraction\s[A-Za-z0-9]+\s" --count 2 --exact
             MatchFileRegex --regex "new\sFraction(earned,(\s)?possible)" --count 1 --exact
@@ -17,11 +17,11 @@ src/main:
 
 src/main:
     java:
-        centile/Fraction.java:
+        centiles/Fraction.java:
             ConfirmFileExists
             MatchFileRegex --regex "Fraction\s[A-Za-z0-9]+\s=\sFraction(numer,(\s)?100)" --count 1 --exact
             MatchFileFragment --fragment "(double)" --count 2 --exact
-            MatchFileFragment --fragment "this.numer + \"/\" + this.denom" --count 1 --exact
+            MatchFileFragment --fragment "this.numer + \\"/\\" + this.denom" --count 1 --exact
             MatchFileFragment --fragment "(this.numer * 100) / this.denom" --count 1 --exact
 
 

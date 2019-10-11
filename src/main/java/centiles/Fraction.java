@@ -36,7 +36,7 @@ public class Fraction {
   public String fmtPercent() {
     NumberFormat fmt = NumberFormat.getPercentInstance();
     fmt.setMinimumFractionDigits(1);
-    double quotient = (double)this.numer/(double)this.denom;
+    double quotient = (double)this.numer / (double)this.denom;
     return fmt.format(quotient);
   }
   

@@ -24,7 +24,7 @@ public class Fraction {
   /** Creates a fraction with 100 as denominator.
    *
    */
-  public Fraction centile(){
+  public Fraction centile() {
     int numer = (this.numer * 100) / this.denom;
     Fraction centile = new Fraction(numer,100);
     return centile;

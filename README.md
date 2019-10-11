@@ -87,7 +87,7 @@ Score 11/12 = 91/100 (91.0%)
 
 ## Keep in mind
 
-* `Fraction` is a `reference type` -- consult our class activity for 9 October (and the [accompanying slides](https://github.com/allegheny-college-cmpsc-100-fall-2019/course-materials/blob/master/Presentations/CMPSC%20100%20-%20Fall%202019%20-%20Week%206%20-%209%20October.pdf)
+* `Fraction` is a `reference type` -- consult our class activity for 9 October (and the [accompanying slides])https://github.com/allegheny-college-cmpsc-100-fall-2019/course-materials/blob/master/Presentations/CMPSC%20100%20-%20Fall%202019%20-%20Week%206%20-%209%20October.pdf)
 * Keep in mind that division between `int` types and `double` types differs in how numbers are represented.
 
 ### Testing your project

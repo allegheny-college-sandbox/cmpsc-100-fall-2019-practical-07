@@ -3,8 +3,8 @@
 This practical will deepen your code reading and implementation skills by creating fractions and performing operations with them as `objects` with properties specific to given `instances`.
 
 * Assigned: Friday, 11 October 2019
-* Due: Wednesday, 16 October
-* Point value: 15 points
+* Due: Friday, 18 October 2019
+* Point value: 20 points
 
 # General guidelines for practical sessions
 
@@ -59,15 +59,19 @@ A final note: the school scores everything as an `integer`, so a 91.1% should be
 
 `DisplayCentile.java`
 
-- [ ] Requests an integer representing points earned (numerator)
-- [ ] Requests an integer representing points possible (denominator)
-- [ ] Creates a fraction representing this ratio
-- [ ] Creates a new fraction representing the score out of 100 points
+- [ ] Builds
+- [ ] Runs
+- [ ] Requests an `int` representing points earned (numerator)
+* Create this as identifier `earned`
+- [ ] Requests an `int` representing points possible (denominator)
+* Create this as identifier `possible`
+- [ ] Creates a `Fraction` representing this ratio
+- [ ] Creates a new `Fraction` representing the score out of 100 points
 - [ ] Displays output in the following fashion:
 ```
 Score 11/12 = 91/100 (91.0%)
 ```
-* Hint: the above uses a predefined method in Fraction.java to create percents, but it might be broken!
+* Hint: the above uses a predefined method (`fmtPercent()`) in Fraction.java to create percents, but it might be broken!
 
 
 `Fraction.java`
@@ -76,10 +80,15 @@ Score 11/12 = 91/100 (91.0%)
 - [ ] Runs
 - [ ] Contains a new method titled `centile` which:
 * Converts scores to a number out of 100
-* Returns this score as a fraction, itself
-- [ ] Fixes the error in the `fmtPercent` method
+* Returns this score as a `Fraction`, itself
+- [ ] Fixes the error in the `fmtPercent()` method
 * You may need to run the program to spot it!
-- [ ] Implements a `toString` method to return fractions in the `numerator/denominator` `String` format
+- [ ] Implements a `toString()` method to return fractions in the `numerator/denominator` `String` format
+
+## Keep in mind
+
+* `Fraction` is a `reference type` -- consult our class activity for 9 October (and the [accompanying slides](https://github.com/allegheny-college-cmpsc-100-fall-2019/course-materials/blob/master/Presentations/CMPSC%20100%20-%20Fall%202019%20-%20Week%206%20-%209%20October.pdf)
+* Keep in mind that division between `int` types and `double` types differs in how numbers are represented.
 
 ### Testing your project
 

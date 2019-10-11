@@ -20,7 +20,7 @@ src/main:
         centiles/Fraction.java:
             ConfirmFileExists
             MatchFileRegex --regex "Fraction\s[A-Za-z0-9]+\s=\snew\sFraction\(numer,(\s)?100\)" --count 1 --exact
-            MatchFileRegex --regex "this\.numer\s+\s\"\/\"\s+\sthis\.denom" --count 1 --exact
+            MatchFileRegex --regex "this\.numer\s\+\s\"\/\"\s\+\sthis\.denom" --count 1 --exact
             MatchFileFragment --fragment "(double)" --count 2 --exact
             MatchFileFragment --fragment "(this.numer * 100) / this.denom" --count 1 --exact
 
